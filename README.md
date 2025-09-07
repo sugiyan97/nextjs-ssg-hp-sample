@@ -42,6 +42,9 @@ $ cd my-site
 # 1) 依存解決
 $ pnpm install
 
+# 1.1) パッケージを追加する場合
+$ pnpm add xxx
+
 # 2) 開発（ホットリロード）
 $ pnpm dev
 

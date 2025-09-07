@@ -1,3 +1,4 @@
+/** 見出し + サブタイトル付きの汎用セクション */
 type Props = {
   eyebrow?: string;
   title: string;

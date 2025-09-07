@@ -17,6 +17,7 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, #0e1526 0%, #0b1220 100%);
 }
 
+/* よく使うユーティリティ（Tailwindと併用） ただ現状動かなかった... */
 /* .container {
   @apply mx-auto max-w-6xl px-4;
 }
