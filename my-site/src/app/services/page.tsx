@@ -23,6 +23,7 @@ export const metadata = {
   title: "Services | PROXIT Sample HP",
 };
 
+/** サービス一覧（箇条書きの静的データで十分） */
 export default function ServicesPage() {
   return (
     <>

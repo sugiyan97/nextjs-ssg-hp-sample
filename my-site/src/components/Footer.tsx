@@ -1,3 +1,4 @@
+/** 年が自動更新されるシンプルなフッタ */
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-white/10">

@@ -1,9 +1,14 @@
 import type { Config } from "tailwindcss";
 
+/**
+ * Tailwind のスキャン対象に MD/MDX を含める（prose 用クラス自動抽出のため）
+ * typography プラグインで記事本文の見た目を整える
+ */
 export default {
   content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
+    "./src/app/**/*.{ts,tsx}",
+    "./src/components/**/*.{ts,tsx}",
+    "./src/content/**/*.{md,mdx}",
   ],
   theme: {
     extend: {
@@ -24,10 +29,7 @@ export default {
       boxShadow: {
         soft: "0 8px 30px rgba(0,0,0,0.06)",
       },
-      borderRadius: {
-        xl2: "1.25rem",
-      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 } satisfies Config;

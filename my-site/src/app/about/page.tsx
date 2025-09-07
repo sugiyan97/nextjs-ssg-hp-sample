@@ -4,6 +4,7 @@ export const metadata = {
   title: "About | PROXIT Sample HP",
 };
 
+/** 会社概要ページ（静的テキストでOK） */
 export default function AboutPage() {
   return (
     <Section

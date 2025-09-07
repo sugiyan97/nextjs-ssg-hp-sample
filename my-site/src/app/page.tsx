@@ -2,6 +2,11 @@ import { Hero } from "@/components/Hero";
 import { Section } from "@/components/Section";
 import Link from "next/link";
 
+/**
+ * トップページ:
+ * - まずは静的要素のみで構成（SSGに相性◎）
+ * - 追加導線は Section コンポーネントで増やす
+ */
 export default function Page() {
   return (
     <>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+/** ファーストビューの訴求コンポーネント */
 export function Hero() {
   return (
     <section className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-500/20 to-indigo-500/10 p-8 md:p-14 ring-1 ring-white/10">

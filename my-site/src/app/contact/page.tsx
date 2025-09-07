@@ -4,6 +4,12 @@ export const metadata = {
   title: "Contact | PROXIT Sample HP",
 };
 
+/**
+ * 完全静的サイトではバックエンドがないため、
+ * - mailto: でメール起動
+ * - Formspark / Google Forms 等のSaaSエンドポイントへ POST
+ * のどちらかを利用する
+ */
 export default function ContactPage() {
   return (
     <Section
