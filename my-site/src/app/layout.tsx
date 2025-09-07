@@ -3,18 +3,32 @@ import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
+
 export const metadata: Metadata = {
-  title: "PROXIT Sample HP",
-  description: "Next.js 15 + React 19 + Tailwind SSG sample site",
+  title: "About | PROXIT Sample HP",
+  description: "私たちの会社についてのご紹介ページです。",
   openGraph: {
-    title: "PROXIT Sample HP",
-    description: "Next.js 15 + React 19 + Tailwind SSG sample site",
-    images: ["/og-image.png"],
+    title: "About | PROXIT Sample HP",
+    description: "小回りの効くチームで、堅実なシステムを提供します。",
+    url: "https://example.com/about",
+    siteName: "PROXIT Sample HP",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PROXIT Sample",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
   },
-  alternates: {
-    canonical: "/",
+  twitter: {
+    card: "summary_large_image",
+    site: "@your_handle",
   },
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
